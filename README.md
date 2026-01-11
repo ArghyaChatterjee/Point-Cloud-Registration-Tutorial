@@ -28,8 +28,11 @@ In this article, we will be:
 
 Now that we took a look at some of the different preprocessing techniques, let’s look at the next step in the general workflow which is registration.
 
+<div align="center">
+  <img src="media/system.webp" width="700">
+  <p><i>General Workflow of Processing Point Clouds to Build Maps.</i></p>
+</div>
 
-General Workflow of Processing Point Clouds to Build Maps
 When a lidar scanner moves along the room, it takes different points a different intervals. So how can we use these point clouds to build a map of the environment and to figure out the relative motion between them?
 
 We can do so with registering point clouds through different approaches such as:
@@ -177,7 +180,7 @@ print("Transformation is:")
 print(reg_p2p.transformation)
 draw_registration_result(source, target, reg_p2p.transformation)
 ```
-When working with point-to-plane, we do the same thing but rather than specifying registration::TransformationEstimationPointToPoint we use registration::TransformationEstimationPointToPlane.
+When working with point-to-plane, we do the same thing but rather than specifying `registration::TransformationEstimationPointToPoint` we use registration::TransformationEstimationPointToPlane.
 
 We get an even better fitness and RMSE result using point-to-plane as observed below:
 
