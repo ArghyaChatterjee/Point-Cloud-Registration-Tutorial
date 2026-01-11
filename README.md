@@ -5,7 +5,15 @@ A Tutorial for Point Cloud Registration.
 ## Resources
 - 2004
   - [Multiple View Geometry in Computer Vision — Richard Hartley & Andrew Zisserman](https://www.r-5.org/files/books/computers/algo-list/image-processing/vision/Richard_Hartley_Andrew_Zisserman-Multiple_View_Geometry_in_Computer_Vision-EN.pdf)
- 
+- 2016
+  - [Review: Fast Point Feature Histograms (FPFH) For 3D Registration](https://ciis.lcsr.jhu.edu/lib/exe/fetch.php?media=courses:446:2016:446-2016-06:dadler_fpfh_review_final.pdf) 
+- 2019
+  - [The Extension of Phase Correlation to Image Perspective Distortions Based on Particle Swarm Optimization](https://pmc.ncbi.nlm.nih.gov/articles/PMC6679575/#:~:text=Phase%20Correlation%20is%20an%20image%20matching%20algorithm%20based%20on%20the,Fourier%20frequency%20domain%20%5B6%5D.)
+- 2021
+  - [Point-to-Plane and Generalized ICP - 5 Minutes with Cyrill](https://youtu.be/2hC9IG6MFD0?si=o5HmEQYFyt-2Gb2x)
+- 2023
+  - [Gentle Introduction to Point Cloud Registration Using Open3d](https://medium.com/@amnahhmohammed/gentle-introduction-to-point-cloud-registration-using-open3d-c8503527f421)
+
 ## Introduction
 
 In this article, we will be:
@@ -181,9 +189,4 @@ Registration with ICP Point-to-Plane
 
 ## Conclusion
 This tutorial provided a concise overview of point cloud registration, focusing on the Iterative Closest Point (ICP) method. It explained the iterative optimization process of aligning a source point cloud to a target point cloud and introduced coding examples using the Open3D library. 
-
-# Sources:
-- The Extension of Phase Correlation to Image Perspective Distortions Based on Particle Swarm Optimization
-- https://youtu.be/2hC9IG6MFD0?si=o5HmEQYFyt-2Gb2x
-- https://ciis.lcsr.jhu.edu/lib/exe/fetch.php?media=courses:446:2016:446-2016-06:dadler_fpfh_review_final.pdf
 
