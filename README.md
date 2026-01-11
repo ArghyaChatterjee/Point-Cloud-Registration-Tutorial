@@ -60,7 +60,9 @@ Point to Point ICP and Point to Plane ICP are similar in concept. The main chang
 
 We do so through computing surface normals on my target point cloud and then project the error vector and take the dot product with the euclidean distance between the points on the source and target point clouds.
 
-Press enter or click to view image in full size
+<div align="center">
+  <img src="media/cost.webp" width="700">
+</div>
 
 As shown in the figure above, the only modification to the cost function is the addition of the dot product of the normal of target point in the PCD denoted as n_y, where y_n is the target point in in the target PCD, and x is the source point in the source PCD.
 
@@ -132,12 +134,16 @@ print(evaluation)
 ```
 The code above calls the evaluate_registration method from the registration pipeline and takes in the source point cloud, target point cloud, threshold, and initial transformation. When evaluating the transformation of the global registration, through the evaluate_registration method we obtain the below results:
 
-Press enter or click to view image in full size
+<div align="center">
+  <img src="media/math_1.webp" width="700">
+</div>
 
 We get a fitness score of 0.1747228, and inlier RMSE of 0.01771. To increase the fitness score and finetune the registration process, let’s go ahead and use a local registration method known as “Iterative Closest Point”.
 
-
-Point Cloud Registration through Global Registration
+<div align="center">
+  <img src="media/pc_gr.webp" width="700">
+  <p><i>Point Cloud Registration through Global Registration.</i></p>
+</div>
 
 ## Applying Iterative Closest Point-to-Point
 ```
@@ -165,9 +171,16 @@ The default is PointToPoint without scaling. In this example we specified that w
 ## Evaluating Point Cloud Registration After Applying Iterative Closest Point
 The above returns “open3d.registration.RegistrationResult” which displays the fitness and RMSE score resulting from the ICP. We also displayed the result in the draw_registration_result as below:
 
+<div align="center">
+  <img src="media/pc_icp.webp" width="700">
+  <p><i>Registration with ICP Point-to-Plane.</i></p>
+</div>
 
 Point Cloud Registration with ICP
-Press enter or click to view image in full size
+
+<div align="center">
+  <img src="media/math.webp" width="700">
+</div>
 
 We get a musch better fitness score of 0.3724495, and lower inlier RMSE of 0.007760179.
 
@@ -191,8 +204,11 @@ Press enter or click to view image in full size
 
 Fitness score of 0.6209722 and inlier RMSE of 0.006581453! Much better results than using global registration alone, and with ICP point-to-point!
 
+<div align="center">
+  <img src="media/icp.webp" width="700">
+  <p><i>Registration with ICP Point-to-Plane.</i></p>
+</div>
 
-Registration with ICP Point-to-Plane
 
 ## Conclusion
 This tutorial provided a concise overview of point cloud registration, focusing on the Iterative Closest Point (ICP) method. It explained the iterative optimization process of aligning a source point cloud to a target point cloud and introduced coding examples using the Open3D library. 
