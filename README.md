@@ -12,7 +12,8 @@ A Tutorial for Point Cloud Registration.
 - 2021
   - [Point-to-Plane and Generalized ICP - 5 Minutes with Cyrill](https://youtu.be/2hC9IG6MFD0?si=o5HmEQYFyt-2Gb2x)
 - 2023
-  - [Gentle Introduction to Point Cloud Registration Using Open3d](https://medium.com/@amnahhmohammed/gentle-introduction-to-point-cloud-registration-using-open3d-c8503527f421)
+  - [Gentle Introduction to Point Cloud Registration Using Open3d Blog](https://medium.com/@amnahhmohammed/gentle-introduction-to-point-cloud-registration-using-open3d-c8503527f421)
+  - [Gentle Introduction to Point Cloud Registration using Open3D Video](https://www.youtube.com/watch?v=3pjCWuTLLrQ)
 
 ## Introduction
 
