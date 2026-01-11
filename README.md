@@ -1,5 +1,6 @@
-# Point Registration Tutorial
-This is a point cloud registration tutorial repository.
+# Point Cloud Registration Tutorial
+
+A Tutorial for Point Cloud Registration.
 
 ## Resources
 - 2004
