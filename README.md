@@ -173,7 +173,7 @@ The above returns “open3d.registration.RegistrationResult” which displays th
 
 <div align="center">
   <img src="media/pc_icp.webp" width="700">
-  <p><i>Registration with ICP Point-to-Plane.</i></p>
+  <p><i>Point Cloud Registration with ICP.</i></p>
 </div>
 
 Point Cloud Registration with ICP
