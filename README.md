@@ -78,9 +78,12 @@ target = o3d.io.read_point_cloud(demo_icp_pcds.paths[1])
 ```
 When visualising both point clouds we can see them as follows:
 
-Press enter or click to view image in full size
-Press enter or click to view image in full size
-Right: Source Left:Target
+<div align="center">
+  <img src="media/source.webp" width="400">
+  <img src="media/target.webp" width="400">
+  <p><i>Right: Source Left:Target</i></p>
+</div>
+
 It’s obvious that both the source and target are point clouds of the same environment but at different angles.
 
 Rather than using the visualisation function we are familiar with, let’s use Open3D’s helper function draw_registration_result.It visualizes the alignment during the registration process.
